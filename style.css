@@ -1,0 +1,66 @@
+.alert{
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: blue;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.header-search{
+    display: flex;
+    padding: 30px;
+}
+.sign-up{
+    padding: 30px;
+}
+.bredcamps{
+    background-color: darkgrey;
+}
+ul{
+    display: flex;
+   
+        
+}
+li{
+   list-style: none;
+   padding: 8px;
+         
+}
+li a{
+    text-decoration: none;
+}
+.main-content{
+    display: flex;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.left-side-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+}
+.left-side-nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.right-side-content{
+    display: flex;
+    background-color: brown;
+}
+.right-side-content ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+footer{
+    background-color: coral;
+    border: 2px solid red;
+    padding-top: 30px;
+    text-align: center;
+}
